@@ -54,10 +54,11 @@ class MainActivity : AppCompatActivity() {
                 }
 
                 R.id.profile_nav -> {
-                    supportFragmentManager.beginTransaction()
-                        .replace(R.id.main_fm, ProfileFragment())
-                        .commitAllowingStateLoss()
-                    return@setOnItemSelectedListener true
+//                    supportFragmentManager.beginTransaction()
+//                        .replace(R.id.main_fm, ProfileFragment())
+//                        .commitAllowingStateLoss()
+//                    return@setOnItemSelectedListener true
+                    startActivity(Intent(this, AlbumActivity::class.java))
                 }
             }
             false

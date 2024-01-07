@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/album_back_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="41dp"
+        android:src="@drawable/btn_left_arrow"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/album_tape_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/pretendard_family"
+        android:lineSpacingExtra="18sp"
+        android:text="테이프"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        app:fontVariationSettings="'wght' 700"
+        app:layout_constraintBottom_toBottomOf="@id/album_back_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/album_back_btn" />
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/album_includedsongs_vp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toBottomOf="@id/album_tape_tv"
+        android:layout_marginTop="100dp"/>
+    
+<!--    <androidx.cardview.widget.CardView-->
+<!--        android:id="@+id/album_cover_cd"-->
+<!--        android:layout_width="239dp"-->
+<!--        android:layout_height="239dp"-->
+<!--        app:cardCornerRadius="15dp"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/album_tape_tv"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        android:layout_marginTop="100dp"-->
+<!--        app:cardElevation="10dp"-->
+<!--        android:background="@null">-->
+<!--        <androidx.cardview.widget.CardView-->
+<!--            android:id="@+id/album_img_cd"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            app:cardCornerRadius="15dp"-->
+<!--            app:cardElevation="0dp"-->
+<!--            app:layout_constraintTop_toBottomOf="@id/album_tape_tv"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent">-->
+
+<!--            <ImageView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:src="@drawable/album_2"/>-->
+
+<!--        </androidx.cardview.widget.CardView>-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/album_img_gradient_iv"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="167dp"-->
+<!--            android:elevation="10dp"-->
+<!--            android:layout_gravity="bottom"-->
+<!--            android:background="@drawable/album_gradient"/>-->
+
+<!--    </androidx.cardview.widget.CardView>-->
+    
+<!--    <Button-->
+<!--        android:layout_width="240dp"-->
+<!--        android:layout_height="55dp"-->
+<!--        android:text=""-->
+<!--        app:layout_constraintTop_toBottomOf="@id/album_cover_cd"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        android:background="@drawable/btn_rounded_red"-->
+
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
