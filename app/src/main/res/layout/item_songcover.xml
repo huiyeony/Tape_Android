@@ -4,17 +4,17 @@
     android:layout_height="match_parent"
     android:layout_marginLeft="@dimen/pageMargin"
     android:layout_marginRight="@dimen/pageMargin"
+    android:clipToPadding="false"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <androidx.cardview.widget.CardView
         android:id="@+id/album_cover_cd"
-        android:layout_width="249dp"
-        android:layout_height="249dp"
+        android:layout_width="260dp"
+        android:layout_height="260dp"
         app:cardCornerRadius="15dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginBottom="10dp"
         app:cardElevation="10dp"
         android:background="@null">
         <androidx.cardview.widget.CardView
@@ -45,7 +45,7 @@
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="40dp"
+            android:layout_height="45dp"
             android:layout_gravity="bottom"
             android:layout_marginBottom="15dp"
             android:layout_marginStart="12.6dp"
@@ -60,11 +60,8 @@
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 android:text="Title"
-                android:fontFamily="@font/pretendard_family"
-                app:fontVariationSettings="'wght' 700"
-                android:lineSpacingExtra="18sp"
-                android:textColor="@color/black"
-                android:textSize="17sp"/>
+                style="@style/TextHeader"
+                android:lineSpacingExtra="18sp"/>
 
             <TextView
                 android:id="@+id/item_songcover_singer_tv"
@@ -73,15 +70,14 @@
                 app:layout_constraintTop_toBottomOf="@id/item_songcover_title_tv"
                 app:layout_constraintStart_toStartOf="@id/item_songcover_title_tv"
                 android:text="Singer"
-                android:fontFamily="@font/pretendard_family"
+                style="@style/TextSmall"
                 android:lineSpacingExtra="18sp"
-                android:textColor="@color/black"
                 android:textSize="13sp"/>
             
             <ImageView
                 android:id="@+id/item_songcover_info_tv"
-                android:layout_width="13dp"
-                android:layout_height="13dp"
+                android:layout_width="16dp"
+                android:layout_height="16dp"
                 android:src="@drawable/btn_info"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="@id/item_songcover_singer_tv"/>
