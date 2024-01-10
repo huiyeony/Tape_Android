@@ -1,8 +1,8 @@
 package com.janob.tape_aos
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import com.janob.tape_aos.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -16,6 +16,7 @@ class MainActivity : AppCompatActivity() {
 
         initBottomNavigation()
 
+        startActivity(Intent(this, OnboardActivity::class.java))
     }
 
     private fun initBottomNavigation() {
