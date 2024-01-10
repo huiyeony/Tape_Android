@@ -41,13 +41,13 @@ class TapeAlbumRVAdapter(private val TapeAlbumList : ArrayList<TapeAlbum>, priva
         //itemTapeTapemoreIv 클릭 시 menu
         init {
             binding.itemTapeTapemoreIv.setOnClickListener {
-                showPopup(it, TapeAlbum())
+                showPopup(it)
             }
         }
 
 
         //menu popup
-        private fun showPopup(view: View, tapealbum : TapeAlbum) {
+        private fun showPopup(view: View) {
             val inflater = view.context.getSystemService(Context.LAYOUT_INFLATER_SERVICE) as LayoutInflater
             val popupView = inflater.inflate(R.layout.custom_tape_popup_menu, null)
 
