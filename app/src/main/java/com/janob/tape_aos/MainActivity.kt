@@ -1,11 +1,8 @@
 package com.janob.tape_aos
 
-import android.app.Activity
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.MotionEvent
-import android.view.inputmethod.InputMethodManager
+import androidx.appcompat.app.AppCompatActivity
 import com.janob.tape_aos.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -20,7 +17,7 @@ class MainActivity : AppCompatActivity() {
 
         initBottomNavigation()
 
-
+        startActivity(Intent(this, OnboardActivity::class.java))
     }
 
     private fun initBottomNavigation() {
@@ -67,5 +64,8 @@ class MainActivity : AppCompatActivity() {
             }
             false
         }
+        setContentView(R.layout.activity_main)
+
+        startActivity(Intent(this, OnboardActivity::class.java))
     }
 }

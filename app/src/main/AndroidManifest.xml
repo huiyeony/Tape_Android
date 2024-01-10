@@ -23,6 +23,10 @@
             </intent-filter>
         </activity>
         <activity android:name=".AlbumActivity" />
+        <activity android:name=".OnboardActivity"
+            android:exported="true"/>
+        <activity android:name=".NextActivity"
+            android:exported="true"/>
     </application>
 
 </manifest>
