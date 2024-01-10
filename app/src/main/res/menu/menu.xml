@@ -8,25 +8,25 @@
         app:showAsAction="always"
         android:title="테이프"
         android:enabled="true"
-        android:icon="@drawable/btm_tape_selector" />
+        android:icon="@drawable/btn_tape_selector" />
     <item
         android:id="@+id/musictalk_nav"
         app:showAsAction="always"
         android:title="뮤직톡"
-        android:icon="@drawable/btm_musictalk_selector"/>
+        android:icon="@drawable/btn_musictalk_selector"/>
     <item
         android:id="@+id/post_nav"
         app:showAsAction="always"
         android:title=""
-        android:icon="@drawable/btm_post_selector"/>
+        android:icon="@drawable/btn_post_selector"/>
     <item
         android:id="@+id/search_nav"
         app:showAsAction="always"
         android:title="검색"
-        android:icon="@drawable/btm_search_selector"/>
+        android:icon="@drawable/btn_search_selector"/>
     <item
         android:id="@+id/profile_nav"
         app:showAsAction="always"
         android:title="@null"
-        android:icon="@drawable/btm_post2_selector"/>
+        android:icon="@drawable/btn_post2_selector"/>
 </menu>
