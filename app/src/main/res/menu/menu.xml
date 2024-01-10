@@ -18,15 +18,15 @@
         android:id="@+id/post_nav"
         app:showAsAction="always"
         android:title=""
-        android:icon="@drawable/btn_post_selector"/>
+        android:icon="@drawable/btm_post_selector"/>
     <item
         android:id="@+id/search_nav"
         app:showAsAction="always"
         android:title="검색"
-        android:icon="@drawable/btn_search_selector"/>
+        android:icon="@drawable/btm_search_selector"/>
     <item
         android:id="@+id/profile_nav"
         app:showAsAction="always"
         android:title="@null"
-        android:icon="@drawable/btn_post2_selector"/>
+        android:icon="@drawable/btm_post2_selector"/>
 </menu>

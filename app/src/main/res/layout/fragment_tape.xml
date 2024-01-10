@@ -2,16 +2,149 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".TapeFragment"
+    android:background="@color/white">
 
-    <TextView
-        android:id="@+id/click_tv"
+    <ImageView
+        android:id="@+id/tape_title"
+        android:src="@drawable/tape_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="테이프"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="44dp"/>
+
+    <ImageView
+        android:id="@+id/tape_setting"
+        android:src="@drawable/tape_alarm_bell"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"/>
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="44dp" />
+
+    <TextView
+        android:id="@+id/tape_todaytape"
+        android:text="오늘의 테이프"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="19.6dp"
+        android:layout_width="114dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tape_title"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20.27dp" />
+
+
+    <ImageView
+        android:id="@+id/tape_tapeimage"
+        android:src="@drawable/tape_tapeimage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/tape_todaytape"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="93dp" />
+
+    <ImageView
+        android:id="@+id/tape_question"
+        android:src="@drawable/tape_question_mark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/tape_setting"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="31dp"
+        />
+
+
+    <View
+        android:id="@+id/tape_maketape_background"
+        android:layout_width="match_parent"
+        android:layout_height="181dp"
+        android:layout_marginTop="128dp"
+        android:background="@drawable/layout_background_shape"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+
+
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/tape_maketape_plus_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/tape_maketape_background"
+        android:layout_marginTop="50.5dp">
+
+        <View
+            android:id="@+id/tape_maketape_plus_bg"
+            android:layout_width="29dp"
+            android:layout_height="29dp"
+            android:background="@drawable/layout_background_shape_2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+             />
+
+
+        <ImageView
+            android:id="@+id/tape_maketape_plus_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="7.5dp"
+            android:src="@drawable/tape_todaytape_plus"
+            app:layout_constraintStart_toStartOf="@id/tape_maketape_plus_bg"
+            app:layout_constraintTop_toTopOf="@id/tape_maketape_plus_bg" />
+
+        <TextView
+            android:id="@+id/tape_maketape_plus_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="테이프 만들기"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            app:layout_constraintStart_toEndOf="@id/tape_maketape_plus_bg"
+            app:layout_constraintTop_toTopOf="@id/tape_maketape_plus_bg"
+            app:layout_constraintBottom_toBottomOf="@id/tape_maketape_plus_bg"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="6.5dp"
+            android:layout_marginBottom="6.5dp"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <View
+        android:id="@+id/tape_tapelist_rv_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/layout_background_shape"
+        android:backgroundTint="@color/white"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="260dp"/>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/tape_tapelist_rv"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/tape_tapelist_rv_bg"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:orientation="vertical"
+        android:background="@color/white"
+        tools:listitem="@layout/item_tape"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
