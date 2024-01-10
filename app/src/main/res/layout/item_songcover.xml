@@ -9,8 +9,8 @@
 
     <androidx.cardview.widget.CardView
         android:id="@+id/album_cover_cd"
-        android:layout_width="260dp"
-        android:layout_height="260dp"
+        android:layout_width="280dp"
+        android:layout_height="280dp"
         app:cardCornerRadius="15dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -21,7 +21,7 @@
             android:id="@+id/album_img_cd"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            app:cardCornerRadius="15dp"
+            app:cardCornerRadius="20dp"
             app:cardElevation="0dp"
             app:layout_constraintTop_toBottomOf="@id/album_tape_tv"
             app:layout_constraintEnd_toEndOf="parent"
@@ -71,8 +71,7 @@
                 app:layout_constraintStart_toStartOf="@id/item_songcover_title_tv"
                 android:text="Singer"
                 style="@style/TextSmall"
-                android:lineSpacingExtra="18sp"
-                android:textSize="13sp"/>
+                android:lineSpacingExtra="18sp"/>
             
             <ImageView
                 android:id="@+id/item_songcover_info_tv"

@@ -39,7 +39,7 @@
 
     <LinearLayout
         android:id="@+id/album_youtube_btn"
-        android:layout_width="260dp"
+        android:layout_width="280dp"
         android:layout_height="45dp"
         android:background="@drawable/btn_rounded_red"
         app:layout_constraintStart_toStartOf="@id/album_includedsongs_vp"
@@ -63,6 +63,7 @@
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/album_btn_layout"
         android:layout_width="170dp"
         android:layout_height="25dp"
         app:layout_constraintTop_toBottomOf="@id/album_youtube_btn"
@@ -88,6 +89,36 @@
             android:layout_gravity="end"
             android:layout_weight="1"/>
     </LinearLayout>
+    
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/album_comment_profile_iv"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@drawable/album_2"
+        app:layout_constraintStart_toStartOf="@id/album_youtube_btn"
+        app:layout_constraintTop_toBottomOf="@id/album_btn_layout"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/album_comment_profile_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="userName"
+        style="@style/TextSmallSemiBold"
+        app:layout_constraintStart_toEndOf="@id/album_comment_profile_iv"
+        app:layout_constraintTop_toTopOf="@id/album_comment_profile_iv"
+        android:layout_marginStart="11dp"/>
+    
+    <TextView
+        android:id="@+id/album_comment_tv"
+        android:layout_width="235dp"
+        android:layout_height="wrap_content"
+        android:text="comment\ncomment\ncomment\ncomment"
+        android:background="@drawable/rounded_comment_box"
+        app:layout_constraintTop_toBottomOf="@id/album_comment_profile_tv"
+        app:layout_constraintStart_toStartOf="@id/album_comment_profile_tv"
+        android:layout_marginTop="10dp"/>
+
 
 
 
