@@ -2,4 +2,8 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!--navi-->
+    <color name="navi_selected">#FF5E5E</color>
+    <color name="navi_unselected">#D9D9D9</color>
 </resources>
