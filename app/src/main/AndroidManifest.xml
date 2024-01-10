@@ -21,6 +21,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".OnboardActivity"
+            android:exported="true"/>
+        <activity android:name=".NextActivity"
+            android:exported="true"/>
     </application>
 
 </manifest>

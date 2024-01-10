@@ -5,7 +5,11 @@ plugins {
 
 android {
     namespace = "com.janob.tape_aos"
-    compileSdk = 33
+    compileSdk = 34
+
+    buildFeatures{
+        viewBinding = true
+    }
 
     defaultConfig {
         applicationId = "com.janob.tape_aos"
