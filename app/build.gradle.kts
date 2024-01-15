@@ -1,6 +1,8 @@
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
+    id("kotlin-kapt")
+    id("kotlin-parcelize")
 }
 
 android {
@@ -79,4 +81,12 @@ dependencies {
 
     //Circle ImageView
     implementation ("de.hdodenhof:circleimageview:3.1.0")
+
+    //카카오 로그인
+    implementation ("com.kakao.sdk:v2-user:2.12.1")
+
+    //  RoomDB
+    implementation("androidx.room:room-ktx:2.4.1")
+    implementation("androidx.room:room-runtime:2.4.1")
+    kapt ("androidx.room:room-compiler:2.4.1")
 }

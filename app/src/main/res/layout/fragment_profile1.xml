@@ -55,7 +55,7 @@
         android:id="@+id/profile1_subtitle_tv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="닉네임은 숫자 어쩌구 규칙..."
+        android:text="닉네임은 영문, 숫자, 마침표, 밑줄만 사용 가능합니다."
         android:textSize="13sp"
         android:textColor="#C4C4C4"
         android:layout_marginTop="8dp"
@@ -77,5 +77,48 @@
         app:layout_constraintTop_toBottomOf="@id/profile1_subtitle_tv"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/profile1_nickname_error_1_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="13dp"
+        android:textColor="#FF5E5E"
+        android:text="사용자 이름은 영문, 숫자, 마침표, 밑줄만 사용할 수 있습니다."
+        android:textSize="10sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profile1_nickname_et"/>
+
+    <TextView
+        android:id="@+id/profile1_nickname_error_2_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="13dp"
+        android:textColor="#FF5E5E"
+        android:text="사용자 이름은 20자 이내로 작성해주세요."
+        android:textSize="10sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profile1_nickname_et"/>
+
+    <TextView
+        android:id="@+id/profile1_nickname_error_3_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="13dp"
+        android:textColor="#FF5E5E"
+        android:text="이 닉네임은 이미 사용 중입니다."
+        android:textSize="10sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profile1_nickname_et"/>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

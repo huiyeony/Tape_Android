@@ -9,11 +9,11 @@ class OnboardVPAdapter(fragment : FragmentActivity) : FragmentStateAdapter(fragm
 
     override fun createFragment(position: Int): Fragment {
         return when(position){
-            0 -> Profile1Fragment()
-            1 -> Profile2Fragment()
-            2 -> SetpictureFragment()
-            3 -> Onboard1Fragment()
-            else -> Onboard2Fragment()
+            0 -> Onboard1Fragment()
+            1 -> Onboard2Fragment()
+            2 -> Profile1Fragment()
+            3 -> Profile2Fragment()
+            else -> SetpictureFragment()
         }
     }
 }
