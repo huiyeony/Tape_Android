@@ -84,18 +84,13 @@
 | Kotlin        | <img src="/images/Kotlin.png" alt="Kotlin" width="100">               |     |
 | AndroidStudio | <img src="/images/AndroidStudio.png" alt="AndroidStudio" width="100"> |     |
 
-|            |                                                                                                                                |        |
-| ---------- | ------------------------------------------------------------------------------------------------------------------------------ | ------ |
-| React      | <img src="https://github.com/user-attachments/assets/e3b49dbb-981b-4804-acf9-012c854a2fd2" alt="React" width="100">            | 18.3.1 |
-| Typescript | <img src="https://github.com/user-attachments/assets/c9b26078-5d79-40cc-b120-69d9b3882786" alt="StyledComponents" width="100"> | 6.1.12 |
-
 <br/>
 
 ## 5.3 Backend
 
-|      |                                     |         |
-| ---- | ----------------------------------- | ------- |
-| Java | <img src="" alt="Java" width="100"> | 10.12.5 |
+|      |                                                     |         |
+| ---- | --------------------------------------------------- | ------- |
+| Java | <img src="/images/Java.png" alt="Java" width="100"> | 10.12.5 |
 
 <br/>
 
