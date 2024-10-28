@@ -50,8 +50,9 @@
 
 # 4. Tasks & Responsibilities (작업 및 역할 분담)
 
-| |
-| 양희연 | <img src="https://github.com/user-attachments/assets/c1c2b1e3-656d-4712-98ab-a15e91efa2da" alt="양희연" width="100"> |
+|        |                                                                                                                      |     |
+| ------ | -------------------------------------------------------------------------------------------------------------------- | --- |
+| 양희연 | <img src="https://github.com/user-attachments/assets/c1c2b1e3-656d-4712-98ab-a15e91efa2da" alt="양희연" width="100"> |     |
 
 <ul>
 <li>tape create 부분 담당 </li>
@@ -65,9 +66,9 @@
 
 ## 5.1 Language
 
-|        |                                                         |
-| ------ | ------------------------------------------------------- |
-| Kotlin | <img src="/images/Kotlin.png" alt="Kotlin" width="100"> |
+|        |                                                         |     |
+| ------ | ------------------------------------------------------- | --- |
+| Kotlin | <img src="/images/Kotlin.png" alt="Kotlin" width="100"> |     |
 
 <br/>
 
@@ -82,17 +83,17 @@
 
 ## 5.3 Backend
 
-|      |                                                     |         |
-| ---- | --------------------------------------------------- | ------- |
-| Java | <img src="/images/Java.png" alt="Java" width="100"> | 10.12.5 |
+|      |                                                     |     |
+| ---- | --------------------------------------------------- | --- |
+| Java | <img src="/images/Java.png" alt="Java" width="100"> |     |
 
 <br/>
 
 ## 5.4 Cooperation
 
-|       |                                                                                                                   |
-| ----- | ----------------------------------------------------------------------------------------------------------------- |
-| Git   | <img src="https://github.com/user-attachments/assets/483abc38-ed4d-487c-b43a-3963b33430e6" alt="git" width="100"> |
-| Figma | <img src="/images/Figma.png" alt="git" width="100">                                                               |
+|       |                                                                                                                   |     |
+| ----- | ----------------------------------------------------------------------------------------------------------------- | --- |
+| Git   | <img src="https://github.com/user-attachments/assets/483abc38-ed4d-487c-b43a-3963b33430e6" alt="git" width="100"> |     |
+| Figma | <img src="/images/Figma.png" alt="git" width="100">                                                               |     |
 
 <br/>
