@@ -27,7 +27,7 @@
 # 2. Team Members (팀원 및 팀 소개)
 | 양희연 | 
 |:------:|
-| <img src="" alt="양희연" width="150"> |
+| <img src="https://github.com/user-attachments/assets/c1c2b1e3-656d-4712-98ab-a15e91efa2da" alt="양희연" width="150"> |
 | FE |
 | [GitHub]() |
 
