@@ -48,11 +48,6 @@
 <br/>
 <br/>
 
-# 4. Tasks & Responsibilities (작업 및 역할 분담)
-
-|        |                                                                                                                      |     |
-| ------ | -------------------------------------------------------------------------------------------------------------------- | --- |
-| 양희연 | <img src="https://github.com/user-attachments/assets/c1c2b1e3-656d-4712-98ab-a15e91efa2da" alt="양희연" width="100"> |     |
 
 <ul>
 <li>tape create 부분 담당 </li>
